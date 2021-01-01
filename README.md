@@ -11,7 +11,7 @@
 
 
 
-## YOUTEIS
+## YOUTIES
 
 > #### 메인 화면
 > > main.php
