@@ -1,0 +1,323 @@
+@charset "utf-8";
+
+/*상단바*/
+#main_header_logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background: #c0412b;
+    padding-top: 3px;
+}
+
+#header-login{
+    grid-column: 2/3;
+
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.top_menu {
+    margin-top: 13px;
+    margin-left: 40px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*세팅 윈도우*/
+#main_header_logo_s{
+    background: #c0412b;
+    padding-top: 3px;
+    padding-left: 10px;
+    text-align: left;
+    margin: none;
+}
+
+#setting-main{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+#setting-content{
+    text-align: left;
+    font-size: larger;
+}
+
+#setting_btn{
+    padding: 5px;
+    border: none;
+    background-color: #c0412b;
+    color: #ffffff;
+    font-size: medium;
+}
+
+
+
+
+
+/*마이페이지*/
+#main{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.main-container{
+    /*background:#ffffff;*/
+    height: 250px;
+    float: center;
+}
+
+
+.pic{
+    border: 10px solid #FFFFFF;
+    /*background:#ffffff;
+    width: 20%;*/
+    float: left;
+    margin: 5px 5px 5px 5px;
+    }
+
+.info{
+    border: 10px solid #FFFFFF;
+    /*background-color:rgb(224,224,224);
+    width: 44%;*/
+    float: left;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+}
+
+.diagram{
+    border: 10px solid #FFFFFF;
+    /*background:#FFFFFF;
+    width: 17%;*/
+    float: left;
+    height: 190px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+
+.tag{
+    padding: 8px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    background-color:rgb(193,57,43);
+    float: left;
+    border-radius: 8%;
+    margin: 7px;
+}
+
+
+
+
+#setting{
+    float: right;
+    background-color: #ffffff00;    /*투명*/
+    border: none;
+}
+
+
+
+
+
+
+/* 그리드 작업 */
+
+#grid-main{
+    /*텍스트 내용 왼쪽 정렬*/
+    text-align: left;  
+
+    display: grid;
+    grid-template-columns: repeat(22, 1fr);
+    grid-template-rows: 250px 40px 1fr 1fr 1fr;
+
+    /* grid 내 row 간격 */
+    row-gap: 30px;
+
+    /* grid 내 column 간격 */
+    column-gap: 30px;
+    
+    /*border: 2px solid rgb(179, 34, 18);     /*투명으로 바꾸기*/
+    margin: 0 auto;
+
+    width: 1100px;
+}
+
+#div1{
+    grid-column: 1/13;
+    grid-row: 1/2;
+
+    width: 100%;
+    height: 250px;
+    background-color: rgb(224,224,224);
+}
+
+#div1-1{
+    width:40%;
+    height: 250px;
+    float:right;
+    margin-top: 30px;
+}
+
+
+figure{ 
+    float:left;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+
+#div2{
+    grid-column: 13/23;
+    grid-row: 1/2;
+
+    height: 250px;
+    background-color:rgb(224,224,224);
+
+    padding-left: 30px;
+}
+
+#review-div{
+    background-color: rgb(224,224,224);
+    margin-bottom: 20px;
+}
+
+#div3{
+    grid-column: 1/22;
+    grid-row: 2/3;
+    text-align: left;
+}
+
+#div4{
+    grid-column: 1/12;
+    grid-row: 3/4;
+    width: 100%;
+}
+
+#div5{
+    grid-column: 12/23;
+    grid-row: 3/4;
+    width: 100%;
+}
+
+#div6{
+    grid-column: 1/12;
+    grid-row: 4/5;
+    width: 100%;
+}
+
+#div7{
+    grid-column: 12/23;
+    grid-row: 4/5;
+    width: 100%;
+}
+
+#div8{
+    grid-column: 1/12;
+    grid-row: 5/6;
+    width: 100%;
+}
+
+#div9{
+    grid-column: 12/23;
+    grid-row: 5/6;
+    width: 100%;
+}
+
+
+
+
+
+#review-div{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    padding-top: 8px;
+
+    margin-bottom: 20px;
+}
+
+
+
+#user-info-star{
+    font-size: 35px;
+    color: #c0412b;
+}
+
+#user-info-date{
+    font-size: 16px;
+    float: right;
+    padding-top: 15px;
+}
+
+#user-info-channel{
+    font-size: 18px;
+}
+
+#user-info-tag{
+    font-size: 18px;
+}
+
+#user-review{
+    width: 95%;
+    height: max-content;
+    font-size: 18px;
+}
+
+#delete-btn-form{
+    text-align: right;
+}
+
+#del{
+    color:#ffffff;
+    background-color: #c0412b;
+    border: none;
+
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.star_2 {font-size:0; letter-spacing:-4px;}
+.star_2 a {
+  padding-left: 5px;
+  font-size:35px;
+  letter-spacing:0;
+  display:inline-block;
+  margin-left:5px;
+  color:#ccc;
+  text-decoration:none;
+}
+.star_2 a:first-child {margin-left:0;}
+.star_2 a.on {color:#c0412b;}
+ /* 신규 css */
+
+.inner-div-allpadding{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
